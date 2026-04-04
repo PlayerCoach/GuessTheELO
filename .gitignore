@@ -1,0 +1,6 @@
+# uv
+.venv/
+uv.lock
+
+# data
+raw_data/
