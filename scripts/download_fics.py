@@ -104,19 +104,6 @@ def download_single_month(output_dir, year, month, target_games):
             print(f"Download failed with status: {file_response.status_code}")
             return -1
         
-   
-if __name__ == "__main__":
-    start_year = 2013
-    num_years = 1
-    target_games = 200_000
-    for year in range(start_year, start_year+num_years):
-        for month in range(1, 13):
-            status = download_single_month(OUTPUT_DIR, year, month, target_games)
-            if status == 0:
-                print(f"Correctly downloaded the data from {month:02d}.{year}")
-            else:
-                print(f"Error when downloading the data from {month:02d}.{year}")
-            time.sleep(10)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Download and sample PGN games from Fics.")
