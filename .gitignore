@@ -4,3 +4,9 @@ uv.lock
 
 # data
 raw_data/
+
+# Examples for parser development
+lichess_db_standard_rated_2013-10.pgn
+ficsgamesdb_202601_chess_nomovetimes_1366105.pgn
+
+parser/processed_data/
