@@ -5,7 +5,10 @@ description = "Project for Systems with Machine Learning curse that aims to buil
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "matplotlib>=3.10.8",
+    "pandas>=3.0.2",
     "requests>=2.33.0",
+    "seaborn>=0.13.2",
     "tqdm>=4.67.3",
     "zstandard>=0.25.0",
     "chess>=1.11.2",
